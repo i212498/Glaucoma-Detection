@@ -22,3 +22,5 @@ U-Net is selected for its effectiveness in biomedical image segmentation due to 
    - **Bottleneck**: Captures the most abstract features through another DoubleConv operation.
    - **Final Convolution**: Reduces the number of channels to the desired number of output channels (1 for binary segmentation).
 
+#### Implementation
+Took a UNET model architecture trained it on our data for segmenting both optic cup and optic disk. Once accuracy was satisfactory, build an application which would take a input feed into both the models, calculate CDR and finally present the resultant image along with the CD Ratio.
